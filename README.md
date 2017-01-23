@@ -27,3 +27,16 @@ Scala way of dealing with exceptions -
    success case and Left is used for failure. It provides more information than Option. Equivalent of this function is  
    Try which provides either Exception or value.  
 
+### [Stream vs. List](src/main/scala/Streams.scala)
+Stream -
+1. Stream is a lazy list which can be used to improve the efficiency.
+
+### [Implicit conversions]
+Implicit conversions are a mechanism where Scala compiler tries to convert or cast the given type T into another type S when
+the method on type T is not defined.
+
+
+  
+   
+   
+
