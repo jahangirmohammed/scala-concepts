@@ -31,7 +31,7 @@ Scala way of dealing with exceptions -
 Stream -
 1. Stream is a lazy list which can be used to improve the efficiency.
 
-### [Implicit conversions]
+### [Implicit conversions](src/main/scala/ImplicitConversions.scala)
 Implicit conversions are a mechanism where Scala compiler tries to convert or cast the given type T into another type S when
 the method on type T is not defined.
 
